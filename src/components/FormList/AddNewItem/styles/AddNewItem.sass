@@ -1,0 +1,169 @@
+main.add-new-item
+    header
+        position: relative
+        display: flex
+        justify-content: space-between
+        height: 36px
+        align-items: center
+        .left-side
+            height: 100%
+            display: flex
+            align-items: center
+            .back-button
+                background: transparent
+                border: none
+                outline: none
+                height: 20px
+            h1
+                margin-left: 23px
+                font-style: normal
+                font-weight: bold
+                font-size: 20px
+                color: #264054
+        .right-side
+            height: 100%
+            display: flex
+            button
+                background: transparent
+                border: none
+                outline: none
+            button.save-button
+                margin-right: 23px
+                height: 100%
+                width: 117px
+                background: rgba(0, 76, 204, 0.1)
+                border-radius: 6px
+                font-style: normal
+                font-weight: bold
+                font-size: 12px
+                letter-spacing: 0.5px
+                text-transform: uppercase
+                color: #004CCC
+    section
+        margin-top: 20px
+        background: #FFFFFF
+        border-radius: 16px
+        padding: 20px
+    section.company-name
+        margin-top: 30px
+        input
+            display: flex
+            align-items: center
+            justify-content: flex-start
+            height: 56px
+            width: 100%
+            padding-left: 16px
+            background: #F8FBFC
+            border-radius: 6px
+            border: none
+            outline: none
+            font-style: normal
+            font-weight: 600
+            font-size: 16px
+            letter-spacing: 0.15px
+        input[type="text"]::-webkit-input-placeholder
+            color: rgba(104, 125, 141, 0.9)
+        input[type="text"]::-moz-placeholder
+            color: rgba(104, 125, 141, 0.9)
+    section.datas-form
+        header.datas-form__header
+            margin-bottom: 29px
+            .title
+                display: flex
+                padding: 12px 12px 12px 16px
+                width: 100%
+                background: #F8FBFC
+                border-radius: 6px
+                margin-right: 17px
+                h2
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 16px
+                    letter-spacing: 0.15px
+                    color: #264054
+                    width: 100%
+                    input
+                        width: 100%
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 16px
+                        letter-spacing: 0.15px
+                        color: #264054
+                        border: none
+                        outline: none
+                        background: transparent
+            .actions
+                display: flex
+                button
+                    background: transparent
+                    border: none
+                    outline: none
+                button:first-child
+                    margin-right: 27px
+        header.datas-form__header:after
+            content: ''
+            position: absolute
+            bottom: -14px
+            border-bottom: 1px solid rgba(104, 125, 141, 0.1)
+            width: 100%
+        .datas-form__item
+            margin-top: 14px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 100%
+            button
+                background: transparent
+                border: none
+                outline: none
+            button.close-button
+                margin-right: 15px
+            input
+                padding: 12px 12px 12px 16px
+                width: 100%
+                margin-left: 15px
+                margin-right: 15px
+                background: #F8FBFC
+                border-radius: 6px
+                color: #264054
+                border: none
+                outline: none
+        footer.datas-form__footer
+            button.add-field-button
+                margin-top: 14px
+                display: flex
+                align-items: center
+                border: none
+                outline: none
+                background: transparent
+                width: 212px
+                height: 36px
+                border-radius: 6px
+                span
+                    margin-left: 13px
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 12px
+                    align-items: center
+                    letter-spacing: 0.5px
+                    text-transform: uppercase
+                    color: #004CCC
+    footer.add-block
+        padding: 20px
+        width: 100%
+        margin-top: 20px
+        background: #FFFFFF
+        border-radius: 16px
+        button.add-block__button
+            background: transparent
+            border: none
+            outline: none
+            display: flex
+            align-items: center
+            span
+                margin-left: 13px
+                font-style: normal
+                font-weight: bold
+                font-size: 12px
+                text-transform: uppercase
+                color: #004CCC
